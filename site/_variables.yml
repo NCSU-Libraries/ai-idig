@@ -1,0 +1,49 @@
+# One place for facts that appear on the page and in the deck.
+
+event:
+  # IDIG's announcement describes the session rather than naming it; this is its wording. The same title is in
+  # _quarto.yml (website title), index.qmd and slides/index.qmd: change all four together.
+  title: "Vibe Coding and the Practical Applications of Artificial Intelligence in Instructional Design and Educational Practice"
+  org: "Data Science Services · NC State University Libraries"
+  group: "Instructional Design Interest Group (IDIG)"
+  group-short: "IDIG"
+  date: "Tuesday, November 24, 2026"
+  time: "12:00 to 1:00 pm"
+  where: "Zoom"
+  length: "60 minutes"
+
+site: "https://ncsu-libraries.github.io/ai-idig/"
+site-short: "ncsu-libraries.github.io/ai-idig"
+go: "go.ncsu.edu/ai-idig"                # the short link, as people type it. Its QR code is images/qr-session.svg; the deck's footer repeats it
+go-url: "https://go.ncsu.edu/ai-idig"
+repo: "https://github.com/NCSU-Libraries/ai-idig"
+help: "https://go.ncsu.edu/getdatahelp"
+help-short: "go.ncsu.edu/getdatahelp"
+eval: "https://go.ncsu.edu/dss-workshop-eval"   # TBD: IDIG may use its own form
+eval-short: "go.ncsu.edu/dss-workshop-eval"
+
+gemini:
+  url: "https://gemini.google.com"
+  canvas-guide: "https://support.google.com/gemini/answer/16047321?hl=en"
+  checked-date: "not yet"                 # TBD: when the Canvas steps were last checked with an NC State account
+
+# NC State's approved AI list, as checked on security.checked-date. Recheck the day before the session.
+security:
+  checked-date: "November 23, 2026"
+  approved-list: "https://software.ncsu.edu/approved-ai-solutions/"
+
+docs:
+  claude-code: "https://code.claude.com/docs/en/overview"
+  codex: "https://developers.openai.com/codex/quickstart"
+  agents-md: "https://agents.md"
+
+sources:
+  karpathy: "https://x.com/karpathy/status/1886192184808149383"
+  willison: "https://simonwillison.net/2025/Mar/19/vibe-coding/"
+
+# How long Claude Code took on each next-change prompt in the dry runs (instructor/dry-run.md)
+times:
+  add-objective: "about 3 minutes"
+  storyline: "about 8 minutes"
+  abcd: "about 20 minutes"
+  scorm: "about 20 minutes"

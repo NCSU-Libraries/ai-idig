@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Quarto build output and caches (the Pages workflow renders the site)
+/site/_site/
+/site/.quarto/
+**/*_files/
+/site/slides/*.html
+
+# Local scratch: screenshots and test runs
+/build/
+/tools/node_modules/
+__pycache__/
+.venv/
+
+# Private: instructor notes are their own local git repo, never part of this one
+/instructor/
+
+# Private: the Tier 2 demo is its own local git repo with no remote, and earlier drafts stay local
+/demo/
+/archive/

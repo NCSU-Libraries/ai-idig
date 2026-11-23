@@ -1,0 +1,60 @@
+---
+# The deck is only the session's bookends: where to go, who we are, and the evaluation. Everything in between is
+# taught from the guide (site/index.qmd), so a change to the session is made in one place. Keep notes like this one
+# up here: an HTML comment above the first heading becomes an empty slide.
+# The evaluation slide points to the DSS form. If IDIG uses its own, change the link and replace images/dss/qr-eval.png.
+title: "Vibe Coding and the Practical Applications of Artificial Intelligence in Instructional Design and Educational Practice"
+subtitle: "For NC State's Instructional Design Interest Group"
+from: markdown-smart
+format:
+  revealjs:
+    theme: [default, ../theme/ncsu.scss, ../theme/slides.scss, ../theme/idig-slides.scss]
+    width: 1280
+    height: 720
+    margin: 0.06
+    slide-number: true
+    hash-type: number
+    transition: fade
+    background-transition: fade
+    preview-links: false
+    # The go link, as in _variables.yml (go). Keep the footer near 50 characters.
+    footer: "Data Science Services · go.ncsu.edu/ai-idig"
+    logo: ../images/lib_logo_whiteBG.png
+---
+
+## While we get started
+
+::: {.two-col}
+::: {}
+[{{< var go >}}]{.statement style="white-space:nowrap"}
+
+1. Open this page on your laptop
+2. Sign in to gemini.google.com with your NC State account
+
+We'll set up together.
+:::
+
+![](../images/qr-session.svg){.qr .qr-big fig-alt="QR code for the session's guide, go.ncsu.edu/ai-idig"}
+:::
+
+## Data Science Services {.dss background-image="../images/dss/dss-services.png" background-size="contain" background-color="#FFFFFF" data-state="dss-slide"}
+
+[Our services: consulting, workshops and instruction, specialized spaces. What we do: finding data, wrangling data, analyzing data, visualization, geographic information systems (GIS), software access.]{.visually-hidden}
+
+## Who we are {.dss .dss-team .nostretch data-state="dss-slide"}
+
+![](../images/dss/dss-team.png){fig-alt="Data Science Services, who we are: Mara Blake, Head, Data Science Services; Shannon Ricci, Associate Head, Data Science Services; Jeff Essic, Lead Librarian for GIS; Alp Tezbasaran, Data Science Librarian; Selene Schmittling, Data Science Librarian; Bin Liu, Data Science Librarian; Ashley Pearson, University Library Specialist"}
+
+Our team comes from a variety of academic backgrounds, including nuclear engineering, electrical engineering, industrial and environmental engineering, marine ecology, information science, natural resources, business administration, and geographic information sciences.
+
+## How to contact us {.dss background-image="../images/dss/dss-contact.png" background-size="contain" background-color="#FFFFFF" data-state="dss-slide"}
+
+[How to contact us: go.ncsu.edu/getdatahelp. Email us, book a 30-minute appointment with a Data Science Consultant, or reserve a workstation in the DXL or Dataspace. All communication with the program is through getdatahelp@ncsu.edu.]{.visually-hidden}
+
+## Tell us how we did
+
+::: {style="text-align:center"}
+[go.ncsu.edu/dss-workshop-eval](https://go.ncsu.edu/dss-workshop-eval){style="font-size:1.5em;font-weight:800"}
+
+![](../images/dss/qr-eval.png){.qr .qr-big fig-alt="QR code for the workshop evaluation, go.ncsu.edu/dss-workshop-eval"}
+:::

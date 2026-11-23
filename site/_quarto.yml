@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/
+
+website:
+  title: "Vibe Coding and the Practical Applications of Artificial Intelligence in Instructional Design and Educational Practice"
+  description: "Build a practice activity with Gemini Canvas, then see an AI agent make it ready for a course. A session for NC State's Instructional Design Interest Group from NC State University Libraries' Data Science Services."
+  site-url: "https://ncsu-libraries.github.io/ai-idig/"
+  repo-url: "https://github.com/NCSU-Libraries/ai-idig"
+  favicon: images/favicon.svg
+  bread-crumbs: false
+  search: false   # one page: the browser's own find does the job
+  # The whole session is one page, index.qmd, so the navbar has no page links. The deck (slides/index.qmd) holds only
+  # the opening and closing slides; a small icon beside the GitHub one opens it.
+  navbar:
+    background: "#CC0000"
+    foreground: "#FFFFFF"
+    logo: images/lib_logo_white.png
+    logo-alt: "NC State University Libraries"
+    title: false
+    right:
+      - href: "https://go.ncsu.edu/getdatahelp"
+        text: Get help
+      - icon: easel
+        href: slides/index.qmd
+        text: " "             # without this, Quarto prints the deck's title beside the icon
+        aria-label: "Slides"
+      - icon: github
+        href: "https://github.com/NCSU-Libraries/ai-idig"
+        aria-label: "Source on GitHub"
+  page-footer:
+    left: "NC State University Libraries · [Data Science Services](https://www.lib.ncsu.edu/staff/department/data-science-services) · Help: [go.ncsu.edu/getdatahelp](https://go.ncsu.edu/getdatahelp)"
+    right: "Content [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Code MIT"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme/site.scss]
+    toc: true
+    toc-depth: 2
+    toc-title: "On this page"
+    number-sections: true
+    number-depth: 2
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    lang: en
