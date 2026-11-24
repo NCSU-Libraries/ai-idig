@@ -43,7 +43,7 @@ By the end of this session you will be able to:
 - Describe a learning activity to Gemini Canvas so that it builds a working first version.
 - Change the activity one step at a time, asking for a plan before each change.
 - Test what the AI made, both whether it works and whether its content is right.
-- Get the activity out of Canvas as a file you can use elsewhere.
+- Get the activity out of Canvas, as a Google Site or as a file you can use elsewhere.
 - Say what an agentic coding tool adds, and how to get one at NC State.
 
 ## What you told us {#told .unnumbered}
@@ -352,7 +352,7 @@ This works with any coding agent that edits files in a folder, such as Claude Co
 demo, then come back to these steps (@sec-access).
 
 1. Make a new folder, for example `measurable-or-not`.
-2. Save your Canvas code in it as `canvas-v1.html` (@sec-wall). It's the last copy and paste.
+2. Save your Canvas code in it as `canvas-v1.html` (@sec-file). It's the last copy and paste.
 3. Save this file in the folder. Name it `CLAUDE.md` for Claude Code, or `AGENTS.md` for Codex and many other agents.
    The agent reads it before every task, so your standards apply without your repeating them.
 
@@ -498,7 +498,8 @@ With an agent, also check these.
 ## Take your work with you {#sec-take}
 
 Your Canvas chat stays in your Gemini history, where you can pin it or export it (@sec-record). The rebuild prompt and
-the `index.html` file (@sec-wall) are yours to keep with your course files.
+the `index.html` file (@sec-file) are yours to keep with your course files, and a Google Site (@sec-sites) stays in your
+Drive.
 
 ## How can I apply this to my own course? {#sec-own}
 
@@ -526,7 +527,7 @@ The same steps work for any small activity, in the same order.
 
 3. Change one thing at a time, and ask for a plan first (@sec-plan).
 4. Test how it works and what it says (@sec-test and @sec-content).
-5. Make it a file (@sec-wall), and go through the list in @sec-check.
+5. Publish it to Google Sites or make it a file (@sec-wall), and go through the list in @sec-check.
 6. With an agent, start from the instructions file and the rebuild prompt (@sec-upgrade).
 
 ## What we did {#sec-did}
@@ -534,7 +535,7 @@ The same steps work for any small activity, in the same order.
 - We described one activity in five parts, and Canvas built it.
 - We asked for a plan before each change, and changed one thing at a time.
 - We tested it with a keyboard, and checked its content ourselves.
-- We took it out of Canvas as a file, and saw why that gets old.
+- We took it out of Canvas, to a Google Site or a file, and saw why that gets old.
 - We saw an agent upgrade the same activity, guided by written standards and checked by its own tests.
 
 Above all, we tested what the AI made before we trusted it.

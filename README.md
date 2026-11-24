@@ -13,7 +13,7 @@
 A hands-on session from NC State University Libraries' Data Science Services for NC State's Instructional Design
 Interest Group (IDIG), first taught on Zoom on November 24, 2026. Participants build a small practice activity,
 "Measurable or Not?", in Gemini Canvas with their NC State account. They improve it one change at a time, test it, and
-take it out of Canvas as a file. Then they watch an agentic coding tool turn the same activity into a version they
+take it out of Canvas as a Google Site or a file. Then they watch an agentic coding tool turn the same activity into a version they
 could put in a course, with editable content, automated keyboard tests, and packages for Storyline and an LMS. No
 coding needed.
 
