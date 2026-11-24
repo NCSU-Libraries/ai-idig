@@ -289,7 +289,25 @@ pin it or export it.
 
 # Get it out of Canvas {#sec-wall}
 
-Your activity only lives inside Canvas. To use it anywhere else, you make it a file.
+Your activity only lives inside Canvas. There are two ways out. You can publish it to a Google Site, or save it as a
+file you can put anywhere.
+
+## Publish it to Google Sites {#sec-sites}
+
+Gemini can send an app from Canvas straight to Google Sites, as a new site of its own.
+
+1. In Canvas, choose **Export**, then **Google Sites**.
+2. Google Sites opens a new draft with your activity in it. Only you can see the draft.
+3. When it's ready, choose **Publish** in Sites and decide who can see it.
+
+**Check:** the activity works in the Sites draft the way it did in Canvas.
+
+This needs Google Sites turned on for your account and permission to create sites. Google announced it in October 2026:
+[Publish interactive apps from the Gemini app to Google Sites]({{< var gemini.sites-export >}}).
+
+## Save it as a file {#sec-file}
+
+For your LMS, Storyline, or anywhere else, make it a file.
 
 1. In Canvas, switch to the code view and copy all of it.
 2. Paste it into a plain-text editor. That's Notepad on Windows, or TextEdit on a Mac after **Format → Make Plain
@@ -299,7 +317,7 @@ Your activity only lives inside Canvas. To use it anywhere else, you make it a f
 
 **Check:** the activity opens in your browser and works the way it did in Canvas.
 
-Every later change means another copy and paste, and another test. That's the wall, and the next section takes it
+Either way, every later change means another export or another copy and paste, and another test. That's the wall, and the next section takes it
 away. Where the file can go is in @sec-host.
 
 # Make it ready for a course {#sec-agent}
@@ -472,6 +490,7 @@ With an agent, also check these.
 | Your LMS | Save the code as `index.html` and upload it. Test in a sandbox course first, since some settings strip scripts. | Ask for a SCORM 1.2 package (@sec-more) and upload it. The gradebook records the score and completion. |
 | Storyline 360 | Save the code as `index.html` in a folder of its own, then use **Insert → Web Object**. | Ask for a web object folder (@sec-more), then use **Insert → Web Object**. |
 | Rise 360 | Host the file somewhere, then add a **Multimedia → Embed** block with its URL. | Ask the agent to publish it, for example to GitHub Pages, and embed that URL. |
+| A Google Site | Choose **Export → Google Sites** in Canvas (@sec-sites). | Ask the agent to publish it, for example to GitHub Pages, then use **Insert → Embed** with that URL. |
 | A colleague | Canvas sharing depends on NC State's settings. A screen share always works. | Send the single file or the package. It opens offline. |
 
 # Wrapping up {#sec-wrap}

@@ -25,6 +25,7 @@ eval-short: "go.ncsu.edu/dss-workshop-eval"
 gemini:
   url: "https://gemini.google.com"
   canvas-guide: "https://support.google.com/gemini/answer/16047321?hl=en"
+  sites-export: "https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html"  # Export > Google Sites, guide 4.1
   checked-date: "not yet"                 # TBD: when the Canvas steps were last checked with an NC State account
 
 # NC State's approved AI list, as checked on security.checked-date. Recheck the day before the session.
