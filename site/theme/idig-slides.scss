@@ -1,9 +1,34 @@
 /*-- scss:rules --*/
 
 // This deck's own styles, loaded after ncsu.scss and slides.scss.
-// IDIG's title is long (16 words), so the title slide (section.quarto-title-block) sets it smaller and narrower than the theme does. At the
-// theme's size it ran five lines and pushed the subtitle under the logo.
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+// The title slide (section.quarto-title-block) follows the DSS Google Slides template: white Roboto Slab on the red
+// panel of images/title-dss.png, the background set in the deck's title-slide-attributes. IDIG's title is long
+// (16 words), so it is smaller than the template's and kept narrow enough to clear the tiles.
 .reveal .slides section.quarto-title-block {
-  h1.title { font-size: 1.9em; line-height: 1.12; max-width: 92%; margin: 0 auto 0.5em; }
-  .subtitle { font-size: 0.85em; line-height: 1.3; max-width: 80%; margin: 0 auto; }
+  text-align: left;
+  h1.title {
+    font-family: "Roboto Slab", Georgia, serif; font-weight: 700; color: #FFFFFF; font-size: 1.3em; line-height: 1.14;
+    letter-spacing: 0; max-width: 800px; margin: 0 0 0.6em 46px; padding: 0; border: 0; text-align: left;
+  }
+  .subtitle { color: #FFFFFF; font-size: 0.72em; line-height: 1.3; max-width: 760px; margin: 0 0 0 46px; text-align: left; }
 }
+
+// The welcome slide, after the one in the DSS Google Slides template: the presenter on the left, a quick poll on the
+// right.
+.reveal .welcome { display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 44px; align-items: start; margin-top: 18px; }
+.reveal .welcome p { margin: 0; }
+.reveal .presenter { display: grid; grid-template-columns: 172px minmax(0, 1fr); column-gap: 28px; align-items: center; margin-top: 10px; }
+.reveal .presenter img { display: block; width: 172px; height: 172px; margin: 0; object-fit: cover; }
+.reveal .presenter-name { display: block; font-size: 0.78em; font-weight: 800; line-height: 1.2; color: #1F1F1F; }
+.reveal .presenter-role { display: block; font-size: 0.5em; line-height: 1.4; color: #444444; }
+.reveal .bio { margin-top: 26px; font-size: 0.57em; line-height: 1.5; color: #444444; strong { color: #CC0000; } }
+.reveal .poll { background: #F2F2F2; border-radius: 40px; padding: 30px 36px 34px; }
+.reveal .poll-q { display: block; font-size: 0.64em; font-weight: 800; line-height: 1.3; color: #1F1F1F; margin: 8px 0 14px; }
+.reveal .poll .choices { margin-bottom: 26px; }
+.reveal .poll .choice {
+  display: inline-block; background: #FFFFFF; border: 1px solid #C9C9C9; border-radius: 10px; padding: 8px 24px;
+  font-size: 0.5em; color: #1F1F1F; margin-right: 8px;
+}
+.reveal .poll .hint { display: block; font-size: 0.5em; line-height: 1.4; color: #6D6E71; }

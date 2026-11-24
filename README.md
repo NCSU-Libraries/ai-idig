@@ -24,7 +24,7 @@ coding needed.
 | Path | Contents |
 | --- | --- |
 | `site/index.qmd` | The guide: the whole session on one page, with the extra activities and the reference |
-| `site/slides/index.qmd` | Six slides for the start and the end: the go link, Data Science Services, the evaluation |
+| `site/slides/index.qmd` | Seven slides for the start and the end: the go link, Data Science Services, the presenter and a quick poll, the evaluation |
 | `site/_variables.yml` | Facts the page and the deck share: the date, the links, the dry-run times |
 | `site/_starter-anatomy.md` | The starter prompt cut into its five PARTS, generated from the page |
 | `site/images/` | Logos, the Data Science Services slides, the QR code and screenshots |
