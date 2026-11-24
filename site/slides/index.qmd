@@ -28,6 +28,43 @@ format:
     logo: ../images/lib_logo_whiteBG.png
 ---
 
+## Welcome! Who we are, and who you are {.nostretch}
+
+::: {.welcome}
+::: {}
+[Your presenter]{.eyebrow}
+
+::: {.presenter}
+![](../images/people/alp.png){fig-alt="Alp Tezbasaran"}
+
+::: {}
+[Alp Tezbasaran]{.presenter-name}
+[Data Science Librarian]{.presenter-role}
+[Data Science Services]{.presenter-role}
+:::
+:::
+
+::: {.bio}
+I finished my Ph.D. recently. I teach Data Science Services workshops on Python, data and **AI tools for research and
+teaching**. I build with AI agents in my own work, and I'm excited to show you what they can make for your learners.
+:::
+:::
+
+::: {.poll}
+[Quick poll]{.eyebrow}
+
+[Have you used Gemini Canvas before?]{.poll-q}
+
+::: {.choices}
+[Never]{.choice} [A little]{.choice} [Regularly]{.choice}
+:::
+
+[Where does your work usually end up?]{.poll-q}
+
+[Your LMS, Storyline, Rise, slides, a website… Type it in the chat, and wait for my go to press Enter.]{.hint}
+:::
+:::
+
 ## While we get started
 
 ::: {.two-col}
@@ -56,43 +93,6 @@ Our team comes from a variety of academic backgrounds, including nuclear enginee
 ## How to contact us {.dss background-image="../images/dss/dss-contact.png" background-size="contain" background-color="#FFFFFF" data-state="dss-slide"}
 
 [How to contact us: go.ncsu.edu/getdatahelp. Email us, book a 30-minute appointment with a Data Science Consultant, or reserve a workstation in the DXL or Dataspace. All communication with the program is through getdatahelp@ncsu.edu.]{.visually-hidden}
-
-## Welcome! Who we are, and who you are {.nostretch}
-
-::: {.welcome}
-::: {}
-[Your presenter]{.eyebrow}
-
-::: {.presenter}
-![](../images/people/alp.png){fig-alt="Alp Tezbasaran"}
-
-::: {}
-[Alp Tezbasaran]{.presenter-name}
-[Data Science Librarian]{.presenter-role}
-[Data Science Services]{.presenter-role}
-:::
-:::
-
-::: {.bio}
-I teach Data Science Services workshops on Python, data and **AI tools for research and teaching**. I build with AI
-agents in my own work, and I'm excited to show you what they can make for your learners.
-:::
-:::
-
-::: {.poll}
-[Quick poll]{.eyebrow}
-
-[Have you used Gemini Canvas before?]{.poll-q}
-
-::: {.choices}
-[Never]{.choice} [A little]{.choice} [Regularly]{.choice}
-:::
-
-[Where does your work usually end up?]{.poll-q}
-
-[Your LMS, Storyline, Rise, slides, a website… Type it in the chat, and wait for my go to press Enter.]{.hint}
-:::
-:::
 
 ## Tell us how we did
 
