@@ -135,6 +135,24 @@ td code { overflow-wrap: anywhere; }
 .shot { border: 1px solid $ncsu-lt-gray; border-radius: 10px; box-shadow: 0 10px 28px rgba(0,0,0,0.10); }
 .small-muted { color: $ncsu-md-gray; font-size: 0.9rem; }
 
+// The short link and its QR code under the title, big enough to read and scan from a shared screen in Zoom. A phone
+// is already on the page, so the code is hidden there.
+.session-link {
+  display: flex; align-items: center; gap: 1.2rem; margin: 1.2rem 0 1.5rem;
+  p { margin: 0; }
+  .session-qr { flex: none; }
+  .session-qr img { display: block; width: 120px; height: 120px; }
+  .session-lead { display: block; font-size: 1.05rem; }
+  .session-go {
+    display: block; font-size: 1.8rem; font-weight: 800; line-height: 1.2; letter-spacing: -0.01em;
+    text-decoration: none; overflow-wrap: anywhere;
+  }
+}
+@media (max-width: 575.98px) {
+  .session-link .session-qr { display: none; }
+  .session-link .session-go { font-size: 1.45rem; }
+}
+
 kbd {
   background: #FFF; color: #1A1A1A; border: 1px solid #BBB; border-bottom-width: 3px; border-radius: 5px;
   padding: 0.05rem 0.4rem; font-family: $font-family-sans-serif; font-weight: 600; font-size: 0.85em;

@@ -4,7 +4,18 @@ subtitle: "Build a practice activity with Gemini Canvas, then see an AI agent ma
 author: "NC State University Libraries · Data Science Services"
 ---
 
-[{{< var event.group >}} · {{< var event.date >}} · {{< var event.time >}} · {{< var event.where >}} · [{{< var go >}}]({{< var go-url >}})]{.small-muted}
+[{{< var event.group >}} · {{< var event.date >}} · {{< var event.time >}} · {{< var event.where >}}]{.small-muted}
+
+::: {.session-link}
+::: {.session-qr}
+![](images/qr-session.svg){fig-alt="QR code that opens this page, go.ncsu.edu/ai-idig"}
+:::
+
+::: {}
+[Follow along on your own screen at]{.session-lead}
+[{{< var go >}}]({{< var go-url >}}){.session-go}
+:::
+:::
 
 ::: {.callout-important}
 ## How to use this guide
